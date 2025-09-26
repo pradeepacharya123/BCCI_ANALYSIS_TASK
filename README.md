@@ -83,14 +83,25 @@ Once the data is stored in the database, perform the following:
 
 ---
 
-## 🐍 Python Packages
+## 🚀 Getting Started
 
-```txt
-requests>=2.31.0,<3.0.0
-pandas>=2.2.0,<3.0.0
-lxml>=5.1.0,<6.0.0
-beautifulsoup4>=4.12.2,<5.0.0
-psycopg[binary]>=3.2.1,<4.0.0
+### Clone the Repository
+
+First, clone this repository to your local machine:
+
+```bash
+git clone https://github.com/Shashank-Salian/tb-task.git
+cd tb-task
+```
+
+---
+
+### 📦 Installation Command
+
+To install all the required packages, run the following command in your terminal:
+
+```bash
+pip install -r requirements.txt
 ```
 
 ---
