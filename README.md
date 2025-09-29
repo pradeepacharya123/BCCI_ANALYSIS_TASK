@@ -23,9 +23,9 @@ source venv/bin/activate    # On Mac/Linux
 # Install required dependencies
 pip install -r requirements.txt
 
-# Replace the value below with your Neon/PostgreSQL database URL
-# Format: postgresql+psycopg2://username:password@host:port/database_name
+#In the project root, create a file named .env (note the dot at the beginning). Then open it and add the following line:
 DATABASE_URL=your_neon_database_connection_string_here
+
 
 # Run All Scripts Orderly
 python test_odi_batting.py
