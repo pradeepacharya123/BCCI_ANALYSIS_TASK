@@ -1,0 +1,12 @@
+# Create proper .gitignore if it doesn't exist or is empty
+@"
+venv/
+.env
+__pycache__/
+*.pyc
+.DS_Store
+*.log
+*.sqlite3
+*.db
+.ipynb_checkpoints/
+"@ | Out-File -FilePath .gitignore -Encoding utf8
